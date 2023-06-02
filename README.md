@@ -1,11 +1,11 @@
-# Naive Bayes Classifier in C++
+# Naive Bayes Image Classification using Cinder Graphics Framework
 
-This project implements a Naive Bayes classifier in C++. The Naive Bayes algorithm is a popular machine learning technique used for classification tasks. It leverages the probabilistic relationship between input features and target labels to make predictions.
+This repository contains a C++ implementation of the Naive Bayes algorithm for image classification, specifically designed to classify 28 by 28-pixel images. The application utilizes the Cinder graphics framework to provide a visually interactive interface for training and testing image classification models.
 
 ## Features
 
-- **Naive Bayes Implementation**: The project includes a complete implementation of the Naive Bayes algorithm in C++. It incorporates the necessary calculations and data structures to train a model and perform classification based on the provided features.
+- **Naive Bayes Classification**: The implementation includes the Naive Bayes algorithm, a popular probabilistic classifier widely used in machine learning. It leverages the assumption of independence between features to efficiently classify images based on their pixel values.
 
-- **Data Preprocessing**: The implementation provides functionality for preprocessing input data. It handles tasks such as feature scaling, handling missing values, and categorical feature encoding. These preprocessing steps ensure that the input data is properly prepared for training and classification.
+- **Image Dataset**: The application supports a dataset of 28 by 28-pixel images for training and testing the classification model. The dataset can be easily loaded and processed to extract the relevant features required by the Naive Bayes algorithm.
 
-- **Model Training and Prediction**: The implementation supports training the Naive Bayes model using labeled training data. It then utilizes the trained model to predict the class labels for new, unseen data instances. The classification process follows the probabilistic calculations and assumptions of the Naive Bayes algorithm.
+- **Visualization**: The application utilizes the Cinder graphics framework to provide a visually appealing interface for interactive training and testing of the image classification model. Users can visualize the training progress, examine the classification results, and gain insights into the model's performance.
